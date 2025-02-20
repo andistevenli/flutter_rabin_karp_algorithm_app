@@ -24,7 +24,7 @@ class _AboutScreenState extends State<AboutScreen> {
           padding: const EdgeInsets.all(UnitManager.SCREEN_PADDING),
           child: Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Image.asset(
@@ -32,15 +32,6 @@ class _AboutScreenState extends State<AboutScreen> {
                   width: 164.0,
                   height: 154.0,
                 ),
-                20.0.vSpace,
-                const MyText(
-                  text: TextManager.ABOUT_TITLE,
-                  color: ColorManager.BLACK,
-                  textHierarchy: TextHierarchy.display,
-                  fontWeight: FontWeight.w700,
-                  textAlign: TextAlign.center,
-                ),
-                20.0.vSpace,
                 const MyText(
                   text: TextManager.VERSION,
                   color: ColorManager.BLACK,
@@ -48,7 +39,10 @@ class _AboutScreenState extends State<AboutScreen> {
                   fontWeight: FontWeight.w500,
                   textAlign: TextAlign.center,
                 ),
-                23.0.vSpace,
+                Divider(
+                  thickness: 1.0,
+                  color: ColorManager.SECONDARY_COLOR,
+                ),
                 const MyText(
                   text: TextManager.DESCRIPTION,
                   color: ColorManager.BLACK,
@@ -56,20 +50,53 @@ class _AboutScreenState extends State<AboutScreen> {
                   fontWeight: FontWeight.w400,
                   textAlign: TextAlign.center,
                 ),
-                36.0.vSpace,
-                const MyText(
-                  text: TextManager.MADE_BY_LABEL,
-                  color: ColorManager.BLACK,
-                  textHierarchy: TextHierarchy.bodyLarge,
-                  fontWeight: FontWeight.w700,
-                  textAlign: TextAlign.center,
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    const MyText(
+                      text: TextManager.MADE_BY_LABEL,
+                      color: ColorManager.BLACK,
+                      textHierarchy: TextHierarchy.bodyLarge,
+                      fontWeight: FontWeight.w700,
+                      textAlign: TextAlign.center,
+                    ),
+                    const MyText(
+                      text: TextManager.MADE_BY_NAME,
+                      color: ColorManager.BLACK,
+                      textHierarchy: TextHierarchy.bodyLarge,
+                      fontWeight: FontWeight.w400,
+                      textAlign: TextAlign.center,
+                    ),
+                    const MyText(
+                      text: TextManager.MADE_BY_NIM,
+                      color: ColorManager.BLACK,
+                      textHierarchy: TextHierarchy.bodyLarge,
+                      fontWeight: FontWeight.w400,
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
                 ),
-                const MyText(
-                  text: TextManager.MADE_BY_NAME,
-                  color: ColorManager.BLACK,
-                  textHierarchy: TextHierarchy.bodyLarge,
-                  fontWeight: FontWeight.w400,
-                  textAlign: TextAlign.center,
+                Image.asset('assets/images/university_logo.png'),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: <Widget>[
+                    const MyText(
+                      text: TextManager.MAJOR_NAME,
+                      color: ColorManager.BLACK,
+                      textHierarchy: TextHierarchy.bodyLarge,
+                      fontWeight: FontWeight.w400,
+                      textAlign: TextAlign.center,
+                    ),
+                    const MyText(
+                      text: TextManager.UNIVERSITY_NAME,
+                      color: ColorManager.BLACK,
+                      textHierarchy: TextHierarchy.display,
+                      fontWeight: FontWeight.w400,
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
                 ),
               ],
             ),
