@@ -1,6 +1,6 @@
 class TextManager {
   //for home screen
-  static const String HOME_TITLE = 'Algoritma Robin Karp';
+  static const String HOME_TITLE = 'Algoritma Rabin Karp';
   static const String HOME_CAPTION =
       'Ambil gambar yang memiliki objek teks untuk melakukan conversi image to teks.';
   static const String HOME_TAKE_PICTURE_BUTTON = 'Ambil gambar';
@@ -15,7 +15,7 @@ class TextManager {
   //for about screen
   static const String VERSION = 'V.1.0';
   static const String DESCRIPTION =
-      'Aplikasi untuk melakukan konversi image ke teks juga untuk membandingkan akurasi dua buah teks menggunakan robin karp';
+      'Aplikasi untuk melakukan konversi image ke teks juga untuk membandingkan akurasi dua buah teks menggunakan rabin karp';
   static const String MADE_BY_LABEL = 'Dibuat oleh:';
   static const String MADE_BY_NAME = 'dea shelpia utami g.s';
   static const String MADE_BY_NIM = '(217064516029)';
