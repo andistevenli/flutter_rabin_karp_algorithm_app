@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/unit_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/text_hierarchy.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/unit_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/text_hierarchy.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MyText extends StatelessWidget {

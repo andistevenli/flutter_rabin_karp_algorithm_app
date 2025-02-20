@@ -1,9 +1,9 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/model/convert_result.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/color_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/text_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/finite_state.dart';
+import 'package:flutter_rabin_karp_algorithm_app/model/convert_result.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/color_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/text_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/finite_state.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 
@@ -109,20 +109,20 @@ class HomeController with ChangeNotifier {
   }
 
   Future<RecognizedText> convertImageToText() async {
-    final InputImage _inputImage = InputImage.fromFilePath(_imagePath!);
-    final TextRecognizer _textRecognizer =
+    final InputImage inputImage = InputImage.fromFilePath(_imagePath!);
+    final TextRecognizer textRecognizer =
         TextRecognizer(script: TextRecognitionScript.latin);
-    final RecognizedText _recognizedText =
-        await _textRecognizer.processImage(_inputImage);
-    _textRecognizer.close();
-    return _recognizedText;
+    final RecognizedText recognizedText =
+        await textRecognizer.processImage(inputImage);
+    textRecognizer.close();
+    return recognizedText;
   }
 
   Future<void> getConvertResult() async {
     try {
       changeFiniteState(value: FiniteState.loading);
-      final RecognizedText _recognizedText = await convertImageToText();
-      _convertResult = ConvertResult(text: _recognizedText.text);
+      final RecognizedText recognizedText = await convertImageToText();
+      _convertResult = ConvertResult(text: recognizedText.text);
       changeFiniteState(value: FiniteState.succeed);
     } catch (e) {
       changeFiniteState(value: FiniteState.failed);

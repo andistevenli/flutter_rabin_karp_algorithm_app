@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/color_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/text_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/unit_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/spacer.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/text_hierarchy.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/my_bottom_navigation_bar.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/my_text.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/color_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/text_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/unit_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/spacer.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/text_hierarchy.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/my_bottom_navigation_bar.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/my_text.dart';
 
 class AboutScreen extends StatefulWidget {
   const AboutScreen({super.key});

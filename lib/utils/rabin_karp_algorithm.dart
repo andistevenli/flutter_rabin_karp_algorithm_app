@@ -1,4 +1,4 @@
-class RobinKarpAlgorithm {
+class RabinKarpAlgorithm {
   // Fungsi untuk menghitung hash dari suatu substring menggunakan metode Rabin-Karp
   static int hashString({required String substring, required int prime}) {
     int hashValue = 0;

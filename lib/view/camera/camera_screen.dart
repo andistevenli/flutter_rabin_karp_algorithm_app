@@ -1,12 +1,12 @@
 import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/controller/home_controller.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/camera_related_button_type.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/size_config.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/camera/widgets/camera_related_button.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/preview/preview_screen.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/states/loading_state.dart';
+import 'package:flutter_rabin_karp_algorithm_app/controller/home_controller.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/camera_related_button_type.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/size_config.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/camera/widgets/camera_related_button.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/preview/preview_screen.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/states/loading_state.dart';
 import 'package:provider/provider.dart';
 
 class CameraScreen extends StatefulWidget {
