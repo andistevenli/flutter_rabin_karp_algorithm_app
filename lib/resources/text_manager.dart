@@ -13,12 +13,14 @@ class TextManager {
       'Ambil gambar untuk melakukan konversi dalam bentuk teks';
   static const String TESTER_TEXT_BOX_HINT = 'Masukan teks untuk pengujian';
   //for about screen
-  static const String ABOUT_TITLE = 'Text me up';
   static const String VERSION = 'V.1.0';
   static const String DESCRIPTION =
       'Aplikasi untuk melakukan konversi image ke teks juga untuk membandingkan akurasi dua buah teks menggunakan robin karp';
   static const String MADE_BY_LABEL = 'Dibuat oleh:';
   static const String MADE_BY_NAME = 'dea shelpia utami g.s';
+  static const String MADE_BY_NIM = '(217064516029)';
+  static const String MAJOR_NAME = 'Program Studi Informatika';
+  static const String UNIVERSITY_NAME = 'Universitas Nasional';
   //for bottom navigation bar
   static const String HOME_NAV_BAR_LABEL = 'Beranda';
   static const String ABOUT_NAV_BAR_LABEL = 'About';

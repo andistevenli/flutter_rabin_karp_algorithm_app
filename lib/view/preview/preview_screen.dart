@@ -1,14 +1,14 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/controller/home_controller.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/color_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/text_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/unit_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/finite_state.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/size_config.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/text_hierarchy.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/home/home_screen.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/my_button.dart';
+import 'package:flutter_rabin_karp_algorithm_app/controller/home_controller.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/color_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/text_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/unit_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/finite_state.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/size_config.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/text_hierarchy.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/home/home_screen.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/my_button.dart';
 import 'package:provider/provider.dart';
 
 class PreviewScreen extends StatefulWidget {

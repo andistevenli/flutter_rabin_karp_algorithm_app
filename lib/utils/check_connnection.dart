@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:flutter_robin_karp_algorithm_app/utils/global_config.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/global_config.dart';
 
 class CheckConnection {
   ///this function aims to execute the connection-checking of the user

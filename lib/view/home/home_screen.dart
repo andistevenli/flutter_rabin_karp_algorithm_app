@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/controller/home_controller.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/color_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/text_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/unit_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/finite_state.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/robin_karp_algorithm.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/size_config.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/spacer.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/text_hierarchy.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/camera/camera_screen.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/my_bottom_navigation_bar.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/my_button.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/my_text.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/my_text_box.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/my_text_field.dart';
+import 'package:flutter_rabin_karp_algorithm_app/controller/home_controller.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/color_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/text_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/unit_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/finite_state.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/rabin_karp_algorithm.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/size_config.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/spacer.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/text_hierarchy.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/camera/camera_screen.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/my_bottom_navigation_bar.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/my_button.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/my_text.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/my_text_box.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/my_text_field.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -182,7 +182,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             );
                           } else {
-                            _result = RobinKarpAlgorithm.rabinKarpSimilarity(
+                            _result = RabinKarpAlgorithm.rabinKarpSimilarity(
                               conversionText: _provider.convertResult!.text!,
                               testerText: _testerController.text,
                             );

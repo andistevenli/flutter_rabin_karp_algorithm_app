@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/finite_state.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/finite_state.dart';
 
 class AboutController with ChangeNotifier {
   //this variable is used to store the Finite State enum

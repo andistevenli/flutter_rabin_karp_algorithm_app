@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/controller/splash_controller.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/finite_state.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/size_config.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/home/home_screen.dart';
-import 'package:flutter_robin_karp_algorithm_app/view/widgets/states/no_internet_state.dart';
+import 'package:flutter_rabin_karp_algorithm_app/controller/splash_controller.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/finite_state.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/size_config.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/home/home_screen.dart';
+import 'package:flutter_rabin_karp_algorithm_app/view/widgets/states/no_internet_state.dart';
 import 'package:provider/provider.dart';
 
 class SplashScreen extends StatefulWidget {

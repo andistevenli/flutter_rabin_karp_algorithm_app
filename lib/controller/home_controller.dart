@@ -1,9 +1,9 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_robin_karp_algorithm_app/model/convert_result.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/color_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/resources/text_manager.dart';
-import 'package:flutter_robin_karp_algorithm_app/utils/finite_state.dart';
+import 'package:flutter_rabin_karp_algorithm_app/model/convert_result.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/color_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/resources/text_manager.dart';
+import 'package:flutter_rabin_karp_algorithm_app/utils/finite_state.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 
